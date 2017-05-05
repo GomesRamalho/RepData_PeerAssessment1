@@ -32,7 +32,7 @@ activity_raw <- data.frame(date=activity_raw$date,
 
 # Compute the day type (weekend or weekday)
 activity_raw <- cbind(activity_raw, 
-                      daytype=ifelse(activity_raw$weekday == "sábado" | 
+                      daytype=ifelse(activity_raw$weekday == "sÃ¡bado" | 
                       activity_raw$weekday == "domingo", "weekend", 
                       "weekday"))
 
